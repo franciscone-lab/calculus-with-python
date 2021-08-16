@@ -13,6 +13,7 @@ def loopEspecificacoes(especificacoes):
 
 if tipoPeca == 0 or tipoPeca > 2:
     print('Número Inválido')
+    
 elif tipoPeca == 1:
     especificacoes = psutil.cpu_times_percent();
     loopEspecificacoes(especificacoes);
